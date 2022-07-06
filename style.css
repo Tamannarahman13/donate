@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+
 }
 
 h1 {
@@ -8,15 +9,21 @@ h1 {
 
 }
 
+
 .top-banner {
     text-align: center;
-
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     color: white;
-    background-position: center;
+}
+
+.top-banner-text {
+    margin-left: 20%;
+    margin-right: 20%;
+
+
 }
 
 .flexible-container {
@@ -37,6 +44,7 @@ h1 {
 .donate-today p {
     margin-left: 20%;
     margin-right: 20%;
+
 }
 
 .amount {
@@ -54,6 +62,7 @@ h1 {
     border-radius: 5px;
     text-decoration: none;
     color: white;
+
 }
 
 #selected {
@@ -121,6 +130,7 @@ h1 {
     color: white;
     font-weight: 700;
 
+
 }
 
 .footer {
@@ -133,4 +143,18 @@ h1 {
 
 .footer h1 {
     color: tomato;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+
+
+.half-width {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.half-width img {
+    width: 80%;
+
 }
