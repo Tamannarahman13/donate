@@ -30,6 +30,13 @@ h1 {
 
 .donate-today {
     text-align: center;
+    /* margin: 20% 20%; */
+
+}
+
+.donate-today p {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .amount {
@@ -38,6 +45,8 @@ h1 {
     background-color: whitesmoke;
     padding: 40px 40px;
 }
+
+
 
 .link-button {
     background-color: rgb(233, 74, 74);
@@ -61,4 +70,67 @@ h1 {
 
 .button-area {
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.donate-plan {
+    display: flex;
+    margin: 10% 10%;
+
+
+}
+
+#food {
+    background-color: rgb(188, 226, 214);
+
+    padding: 15px;
+
+}
+
+#shelter {
+    background-color: rgb(230, 209, 183);
+    padding: 15px;
+    margin-left: 5%;
+}
+
+#education {
+    background-color: rgb(181, 230, 231);
+    padding: 15px;
+    margin-left: 5%;
+}
+
+.updates {
+    background-color: antiquewhite;
+    margin-bottom: 20%;
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.email {
+    padding: 10px 20%;
+    background-color: rgb(223, 217, 217);
+    border: 0;
+}
+
+.subscribe {
+    padding: 10px 5%;
+    border: 0;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footer h1 {
+    color: tomato;
 }
